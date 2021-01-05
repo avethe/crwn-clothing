@@ -1,0 +1,34 @@
+.collection-item {
+    min-width: 22%;
+    height: 350px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    
+
+    .background-image {
+        height: 90%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        border: 1px solid black;
+    }
+
+    .button {
+        background-color: rgba(255,255,255, 0.5);
+        border: none;
+        position: absolute;
+        padding: 25px;
+        display: none;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 10%;
+        font-size: 18px;
+    }
+}
